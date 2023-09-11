@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mariao.css">
+    <title>mariao</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.jpeg" height="150">
+        <div>
+            <h1>Inscrição:</h1>
+            <h5> CENTRO ESTADUAL DE EDUCAÇÃO PROFISSIONAL - SEIJI HATANDA</h5>
+            <h5>Rua Theodomiro Eugênio Asth, n° 180 - Flamenguinho - Ibaiti/PR<br>
+                E-mail: ibtceepseijihatanda@seed.pr.gov.br<br>
+                CEP: 84900-000 TEL (43) 3546-4516</h5>
+        </div>
+    </header>
+        
+
+    <form method="POST" action="processainscricao.php" enctype="multipart/form-data">
+
+        <Label> Numero da Inscrição: </label>
+
+        <input type="text" name="numero"><br><br>
+
+        <Label> Nome: </label> 
+
+        <input type="text" name="nome"><br><br>
+
+        <label> RG:</label>
+        <input type="text" name="rg">
+
+        <Label> Expedido por: </label>
+
+        <input type="text" name="expedido"><br><br>
+
+        <Label> CPF: </label>
+
+        <input type="text" name="cpf"><br><br>
+
+        <Label> Data de nascimento: </label>
+
+        <input type="text" name="data">
+
+        <Label> Numero de dependentes: </label>
+
+        <input type="text" name="dependentes"><br><br>
+
+        <Label> Endereco: </label>
+
+        <input type="text" name="endereco">
+
+        <Label> N°: </label>
+
+        <input type="text" name="nome1"><br><br>
+
+        <Label> Bairro: </label>
+
+        <input type="text" name="bairro"><br><br>
+
+        <Label> Municipio: </label>
+
+        <input type="text" name="municipio">
+
+        <select name="UF" id="UF">
+            <option value="1">selecionar</option>
+            <option value="2">AC</option>
+            <option value="3">AL</option>
+            <option value="4">AP</option>
+            <option value="5">AM</option>
+            <option value="6">BA</option>
+            <option value="7">CE</option>
+            <option value="8">DF</option>
+            <option value="9">ES</option>
+            <option value="10">GO</option>
+            <option value="11">MA</option>
+            <option value="12">MT</option>
+            <option value="13">MS</option>
+            <option value="14">MG</option>
+            <option value="15">PA</option>
+            <option value="16">PB</option>
+            <option value="17">PR</option>
+            <option value="18">PE</option>
+            <option value="19">PI</option>
+            <option value="20">RJ</option>
+            <option value="21">RN</option>
+            <option value="22">RS</option>
+            <option value="23">RO</option>
+            <option value="24">RR</option>
+            <option value="25">SC</option>
+            <option value="26">SP</option>
+            <option value="27">SE</option>
+            <option value="28">TO</option>
+
+        </select></br></br>
+        <Label> Fone: </label>
+
+        <input type="text" name="fone">
+
+        <Label> Celular/WhatsApp: </label>
+
+        <input type="text" name="zap"><br><br>
+
+        <Label> Telefone para recado: </label>
+
+        <input type="text" name="recado">
+
+        <Label> Nome: </label>
+
+        <input type="text" name="nomerecado"><br><br>
+
+        <Label> E-mail: </label>
+
+        <input type="email" name="email"><br><br>
+
+        <h2>Curso pretendido:</h2>
+
+        <table border="1" cellpadding="20">
+            <td> </td>
+            <td>Tecnico em Enfermagem - Subsequente</td>
+            <td>Noite</td>
+            <tr></tr>
+            <td></td>
+            <td>Tecnico em Farmacia - Subsequente</td>
+            <td>Noite</td>
+        </table>
+
+        <h2>Curso com organização curricular:</h2>
+        <label>( ) Subsequente (Somente educação profissional - destinado a engressos do ensino medio)</label><br><br>
+
+        <label> Declaro verdadeiras as informações acima e estou ciente que, em caso de classifição para o curso e
+            efetivação de matricula, o não comparecimento nas aulas nos primeiros 05 (cinco)
+            dias úteis do inicio do curso implicará na exclusão automatica da matricula, sendo necessario participar de
+            novo processo seletivo para ingressar no curso pretendido.
+        </label><br><br><br><br><br><br>
+        <label>Ibaiti,________ de ___________________________ de 2023.</labek>
+
+            <input type="submit" value="Salvar">
+
+    </form>
+
+</body>
+
+</html>
